@@ -47,13 +47,10 @@ public class UnitTestingTest {
 	
 	@Test
 	public void testingTheRavenNULLValues() {
-	    int[] expectedCode = null;
-	    int[] actualCode = null;
+	    Integer[] expectedCode = null;
+	    Integer[] actualCode = null;
 	    assertArrayEquals(expectedCode, actualCode);
 	}
-	
-	
-	
 	
 	}
 
